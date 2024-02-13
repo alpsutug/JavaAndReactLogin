@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: green;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.nav_menu {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav_menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_menu a:hover {
+    background-color: white;
+    color: green;
+}
+
+.columnA, .columnC {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    text-align: justify;
+}
+
+.columnB {
+    float: left;
+    width: 60%;
+    padding: 15px;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .columnA, .columnB, .columnC {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .columnA, .columnB, .columnC {
+        width: 100%;
+    }
+}
+
+.tblAraba {
+    background-color: darkmagenta;
+    #border-collapse: collapse;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+    border-radius: 15px;
+}
+
+tr:nth-child(odd) {
+    background-color: #d5ff59;
+    border-radius: 15px;
+}
+
+tr:hover {
+    background-color: chartreuse;
+    border-radius: 15px;
+}
+
+#tblID {
+    color: black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+th {
+    background-color: chocolate;
+    border-radius: 15px;
+}
+
+table, th, td {
+    border-radius: 15px;
+}

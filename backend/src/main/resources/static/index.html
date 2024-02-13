@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title>Website Layout</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+</head>
+
+<body onload="getAllData()">
+
+<div class="header">
+    <h2 style="color: white; font-size: 200%">Araba</h2>
+</div>
+
+<div class="nav_menu">
+    <a href="#">Marka</a>
+    <a href="#">Model</a>
+    <a href="#">Yıl</a>
+</div>
+
+<div class="row">
+    <div class="columnA">
+
+        <h2>Column A</h2>
+
+        <p>Menü</p>
+
+        <div class="login-cls" id="login-div">
+            <label for="username"><b>Username</b></label>
+            <input
+                    type="text"
+                    placeholder="Enter Username"
+                    id="username"
+                    required
+            />
+
+            <label for="password"><b>Password</b></label>
+            <input
+                    type="password"
+                    placeholder="Enter Password"
+                    id="password"
+                    required
+            />
+
+            <button onclick="giris()" class="btn-cls">Login</button>
+        </div>
+
+        <div id="user-div" style="display: none">
+            <label for="marka"><b>Marka</b></label>
+            <input type="text" id="marka"/>
+            <br>
+            <label for="model"><b>Model</b></label>
+            <input type="text" id="model"/>
+            <br>
+            <label for="yil"><b>Yıl</b></label>
+            <input type="text" id="yil"/>
+            <br>
+            <label for="fiyat"><b>Fiyat</b></label>
+            <input type="text" id="fiyat"/>
+            <br>
+            <label for="renk"><b>Renk</b></label>
+            <input type="text" id="renk"/>
+        </div>
+    </div>
+
+    <div class="columnB">
+        <h2>Column B</h2>
+
+        <div id="carTable">
+
+        </div>
+
+    </div>
+
+    <div class="columnC">
+        <h2>Column C</h2>
+
+        <p>Banner</p>
+    </div>
+</div>
+</body>
+</html>
