@@ -11,3 +11,10 @@ Hem backend hem de frontend olarak geliştirdiğim bu projede yeni teknolojiler 
 Login sayfamda veritabanımdaki kayıtlı username ve password ile sisteme girişleri sağladım.
 Giriş yapıldıktan sonra gelen ekrana iste veritabanımdaki tablomdaki bilgileri çektim.
 Anasayfamda bulunan hesap makinesi butonu ile hesap sayfama yönlendirerek basit bir hesap makinesi oluşturdum.
+
+![image](https://github.com/alpsutug/JavaAndReactLogin/assets/119755534/2f2b51de-2089-4fe7-9163-5b4c8760b407)
+
+![image](https://github.com/alpsutug/JavaAndReactLogin/assets/119755534/2ceea289-38cf-4e83-a474-3f67cad2062d)
+
+![image](https://github.com/alpsutug/JavaAndReactLogin/assets/119755534/f0df2648-8655-49c6-a3c0-8392092f1155)
+
